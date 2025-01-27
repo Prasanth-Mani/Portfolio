@@ -46,12 +46,14 @@ i18next
             ProjectIntro: "A variety of projects I have worked on.",
 
             Proj1Title: "Recipe Website",
-            Proj1Description:
-              "The Recipe website showcases a single, detailed recipe page that highlights the ingredients, preparation steps, and an image of the dish. The site is designed with simplicity and clarity in mind, using HTML and CSS to deliver a visually appealing and functional experience",
+            Proj1Description:"The Recipe website showcases a single, detailed recipe page that highlights the ingredients, preparation steps, and an image of the dish. The site is designed with simplicity and clarity in mind, using HTML and CSS to deliver a visually appealing and functional experience",
+            
             Proj2Title: "BMI Calculator",
             Proj2Description: "Body Mass Index (BMI) based on their weight and height. The calculator uses HTML for the structure, CSS for styling, and JavaScript to perform the calculations and display the results dynamically. This project provides a user-friendly interface where users can input their data, see their BMI, and get a health status classification based on the BMI value",
+            
             Proj3Title: "E-Commerce",
             Proj3Description:"This Full-Stack E-Commerce web-app is a robust online shopping platform built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). The project aims to provide a seamless and dynamic shopping experience, offering users a comprehensive set of features such as product browsing, shopping cart management, user authentication, and order management. The backend and frontend are tightly integrated, ensuring a smooth user experience and efficient operations.",
+            
             githubAvailable: "View on GitHub",
             liveAvailable: "View live site",
           },
