@@ -23,7 +23,7 @@ function Footer() {
           {t("footer.Projects")}
         </a>{" "}
         <a
-          href="https://github.com/Prasanth-Mani"
+          href="https://github.com/Prasanth-Mani/Portfolio"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -44,7 +44,7 @@ function Footer() {
           <FaLinkedin size={22} />{" "}
         </a>
         <a
-          href="https://github.com/Prasanth-Mani/Portfolio"
+          href="https://github.com/Prasanth-Mani"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub Profile"
