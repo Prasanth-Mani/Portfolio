@@ -80,7 +80,7 @@ function Project() {
         <ProjectCard 
          imageSrc={proj3Image1}
          projName={t('projects.Proj3Title')}
-         projDescription={t('projects.Proj2Description')}
+         projDescription={t('projects.Proj3Description')}
          githubLink={"https://github.com/Prasanth-Mani/e-commerce_frontend"}
          externalLink={"https://e-commerce-frontend-bay-three.vercel.app/"}
        />{" "}
