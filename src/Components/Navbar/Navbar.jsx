@@ -112,7 +112,7 @@ function NavBar({ isDark, toggleDarkMode, toggleLightMode, toggleSystemMode }) {
         >
           <div className={styles.burgerLogo}>
             <a href="#" onClick={handleSmoothClick()}>
-              NJ
+              PR
             </a>
           </div>
           {!burgerMenuOpen && (
