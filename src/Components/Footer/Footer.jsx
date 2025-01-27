@@ -44,7 +44,7 @@ function Footer() {
           <FaLinkedin size={22} />{" "}
         </a>
         <a
-          href="https://github.com/Prasanth-Mani"
+          href="https://github.com/Prasanth-Mani/Portfolio"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub Profile"
