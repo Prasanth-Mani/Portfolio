@@ -1,0 +1,39 @@
+@import "@fontsource/poppins";
+@font-face {
+  font-family: 'Blisstrapy';
+  src: local('Blisstrapy'), url(./fonts/Blisstrapy.woff2) format('truetype');
+}
+@font-face {
+  font-family: 'NerdFont';
+  src: local('NerdFont'), url(./fonts/NerdFont.woff2) format('truetype');
+}
+
+html,body{
+  background: var(--background-color2);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+[data-theme="Dark"] {
+  --text-color: #bababa;
+  --text-color2:white;
+  --background-color: rgba(255, 255, 255, 0.061);
+  --background-color2: rgba(0, 0, 0, 0.7);
+  --hover-color: #ffffff;
+  --border-color:rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="Light"] {
+  --text-color: black;
+  --text-color2:black;
+  --background-color: white;
+  --background-color2: white;
+  --hover-color: grey;
+  --border-color:rgba(0, 0, 0, 0.1);
+}

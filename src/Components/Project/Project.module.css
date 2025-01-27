@@ -1,0 +1,47 @@
+.projectfunc{
+    margin-top: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 1rem 1rem 1rem 1rem;
+}
+.smallTitle{
+    color: var(--text-color2);
+}
+
+.pTitle{
+    padding-top: 6%;
+    font-size: 5rem;
+    font-family: "Blisstrapy", Sans-serif;
+    background: linear-gradient(to right, #9b5de5, #ff5e5b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.projectfunc :nth-child(2){
+    font-family: "NerdFont", Sans-serif;
+}
+
+.project{
+    width: 100%;
+    margin-top: 1.25rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid: repeat(2,15rem)/repeat(3,1fr);
+    gap: 15px;
+}
+
+
+
+@media screen and  (max-width:1253px) {
+    .project{
+        grid: auto 1fr/1fr;}
+
+    .projectfunc{
+        margin-top: 8rem;
+    }
+      
+}

@@ -1,0 +1,98 @@
+.contactComponent {
+  margin: 10rem auto  0;
+  width: 80%;
+  max-width: 1200px;
+  color: var(--text-color2);
+  padding-top: 2rem;
+}
+.contactComponent >:nth-child(1) {
+  font-size: 5rem;
+  font-family: "Blisstrapy", Sans-serif;
+  background: linear-gradient(to right, #9b5de5, #ff5e5b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin: 1.5rem 0 0.5rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.contact {
+ width: 70%;
+ margin: auto;
+
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact form input,
+.contact form textarea{
+
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.contact.light form input,
+.contact.light form textarea{
+  color: black;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact p {
+  font-family: "Poppins",sans-serif;
+  margin-bottom: 1rem;
+}
+.contact button {
+  background: linear-gradient(to right, #9b5de5, #ff5e5b);
+  color: var(--text-color2);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+  align-self: center;
+  width: 80%;
+}
+
+
+.contact button:hover {
+  opacity: 0.8;
+}
+
+
+.error {
+  color: #ff5e5b;
+  font-size: 0.875rem;
+} 
+
+.formgrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+
+@media screen and  (max-width:1253px) {
+.contact{
+  width: 100%;
+}
+.formgrid{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+    
+}
